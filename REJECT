@@ -1,2 +1,0 @@
-^https?://fuss10.elemecdn.com/.+\.mp4 - reject
-^https?://fuss10.elemecdn.com/.+/w/(640|750|828|1080|1125|1242)/h/\d{3,4} - reject
