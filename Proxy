@@ -1,3 +1,6 @@
 // infuse 下载元数据
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,themoviedb.org
+
+// TestFlight
+USER-AGENT,TestFlight*
