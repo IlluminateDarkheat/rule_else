@@ -4,3 +4,4 @@ DOMAIN-SUFFIX,themoviedb.org
 
 // TestFlight
 USER-AGENT,TestFlight*
+DOMAIN-SUFFIX,testflight.apple.com
