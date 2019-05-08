@@ -1,6 +1,9 @@
+// Siri
+USER-AGENT,*AssistantServices*
+
 // infuse 下载元数据
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,themoviedb.org
 
-// Siri
-USER-AGENT,*AssistantServices*
+DOMAIN-SUFFIX,ubi.com
+DOMAIN-SUFFIX,paypal.com
