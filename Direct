@@ -1,3 +1,6 @@
 // MTProto
 AND,((IP-CIDR,34.92.96.150/32),(DEST-PORT,25374))
 AND,((IP-CIDR,35.201.182.2/32),(DEST-PORT,53624))
+
+// 天若OCR
+DOMAIN,ocr.shouji.sogou.com
