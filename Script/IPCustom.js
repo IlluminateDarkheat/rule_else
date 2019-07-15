@@ -18,6 +18,7 @@ function ValidCheck(para) {
   return para
   } else
   {
+  return ' '
   }
 }
 
