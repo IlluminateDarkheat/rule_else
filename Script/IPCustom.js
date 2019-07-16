@@ -28,6 +28,6 @@ var obj = JSON.parse(body);
 var title = 'Holly';
 var subtitle = 'Dler Cloud';
 var ip = obj['ip'];
-var description = obj['country'] + '-' +ValidCheck(obj['city']) + '\n' + obj['organization'] + '\n'+ '\n' + obj['ip'];
+var description = 'Holly';
 
 $done({title, subtitle, ip, description});
