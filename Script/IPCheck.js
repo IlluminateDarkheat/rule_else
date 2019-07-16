@@ -24,7 +24,7 @@ var obj = JSON.parse(body);
 var title = flags.get(obj['country']) + ' '+ obj['country'];
 var subtitle =''+' '+obj['city'];
 var ip = obj['ip'];
-var description = obj['country'] + '\n' + ValidCheck(obj['city']) + '\n'+ '\n' + obj['ip'];
+var description = obj['country'] + '\n' + ValidCheck(obj['city']) + '\n'+ obj['ip'];
 
 
 $done({title, subtitle, ip, description});
