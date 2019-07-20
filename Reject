@@ -47,21 +47,21 @@ DOMAIN-SUFFIX,yuanchengxiezuo.com
 DOMAIN-SUFFIX,zbrushcn.com
 
 //Zhihu
-DOMAIN,crash2.zhihu.com,REJECT
-DOMAIN,vdn.vzuu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
-AND,((USER-AGENT,ZhihuHybrid*), (DOMAIN,api.zhihu.com)),REJECT
-DOMAIN,unpkg.zhimg.com,REJECT
-DOMAIN,lens.zhihu.com,REJECT
+DOMAIN,crash2.zhihu.com
+DOMAIN,vdn.vzuu.com
+DOMAIN,sugar.zhihu.com
+AND,((USER-AGENT,ZhihuHybrid*), (DOMAIN,api.zhihu.com))
+DOMAIN,unpkg.zhimg.com
+DOMAIN,lens.zhihu.com
 
 //BiliBili
-DOMAIN,thirdparty.biliapi.com,REJECT
-DOMAIN,data.bilibili.com,REJECT
-DOMAIN,cm.bilibili.com,REJECT
-DOMAIN,miniapp.bilibili.com,REJECT
+DOMAIN,thirdparty.biliapi.com
+DOMAIN,data.bilibili.com
+DOMAIN,cm.bilibili.com
+DOMAIN,miniapp.bilibili.com
 
 //Netease music
-DOMAIN,admusicpic.music.126.net,REJECT
-DOMAIN,iadmusicmat.music.126.net,REJECT
-AND,((USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*), (NOT,((DOMAIN-SUFFIX,music.126.net)))),REJECT
-USER-AGENT,neteasemusic*,REJECT
+DOMAIN,admusicpic.music.126.net
+DOMAIN,iadmusicmat.music.126.net
+AND,((USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*), (NOT,((DOMAIN-SUFFIX,music.126.net))))
+USER-AGENT,neteasemusic*
