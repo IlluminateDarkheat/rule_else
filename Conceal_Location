@@ -1,25 +1,29 @@
+DOMAIN, grpc.biliapi.net, Unlock
+DOMAIN, api.bilibili.com, Unlock
+DOMAIN, passport.bilibili.com, Unlock
+
 DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,dig.zjurl.cn,REJECT
-DOMAIN-KEYWORD,-normal-lq.amemv.com,PROXY
+DOMAIN-KEYWORD,-normal-lq.amemv.com,Unlock
 
 # Domain rules
-DOMAIN-SUFFIX,weibo.com,PROXY
-DOMAIN-SUFFIX,weibo.cn,PROXY
-DOMAIN-SUFFIX,weico.cc,PROXY
+DOMAIN-SUFFIX,weibo.com,Unlock
+DOMAIN-SUFFIX,weibo.cn,Unlock
+DOMAIN-SUFFIX,weico.cc,Unlock
 # IP rules
 # weibo.com
-IP-CIDR,180.149.138.0/24,PROXY
+IP-CIDR,180.149.138.0/24,Unlock
 # weibo.cn, api.weibo.cn (The important one!)
-IP-CIDR,36.51.254.0/24,PROXY
-IP-CIDR,49.7.40.0/24,PROXY
-IP-CIDR,183.60.93.0/24,PROXY
+IP-CIDR,36.51.254.0/24,Unlock
+IP-CIDR,49.7.40.0/24,Unlock
+IP-CIDR,183.60.93.0/24,Unlock
 # dp.im.weibo.cn, *.biz.weibo.com
-IP-CIDR,49.7.36.0/24,PROXY
+IP-CIDR,49.7.36.0/24,Unlock
 # api.uve.weibo.com (Other *.uve.weibo.com are CNAME'd to here)
-IP-CIDR,180.149.138.39/32,PROXY
+IP-CIDR,180.149.138.39/32,Unlock
 # dns.weibo.com (uses AliDNS for Business service)
-IP-CIDR,39.97.130.0/24,PROXY
-IP-CIDR,39.97.128.0/24,PROXY
+IP-CIDR,39.97.130.0/24,Unlock
+IP-CIDR,39.97.128.0/24,Unlock
 
 # sinaimg.cn does not affect region display results, 
 # so no need to be paranoid (for now).
