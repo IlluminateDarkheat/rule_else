@@ -4,7 +4,7 @@
 
 DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,dig.zjurl.cn,REJECT
-DOMAIN-KEYWORD,-normal-lq.amemv.com,Unlock
+DOMAIN-KEYWORD,-lq.amemv.com,Unlock
 
 # Domain rules
 DOMAIN-SUFFIX,weibo.com,Unlock
