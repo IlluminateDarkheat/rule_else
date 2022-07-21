@@ -1,6 +1,6 @@
-DOMAIN, grpc.biliapi.net, Unlock
-DOMAIN, api.bilibili.com, Unlock
-DOMAIN, passport.bilibili.com, Unlock
+;DOMAIN, grpc.biliapi.net, Unlock
+;DOMAIN, api.bilibili.com, Unlock
+;DOMAIN, passport.bilibili.com, Unlock
 
 DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,dig.zjurl.cn,REJECT
