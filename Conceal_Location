@@ -2,28 +2,29 @@ DOMAIN, grpc.biliapi.net, Unlock
 DOMAIN, api.bilibili.com, Unlock
 DOMAIN, passport.bilibili.com, Unlock
 
-DOMAIN,dig.bdurl.net,REJECT
-DOMAIN,dig.zjurl.cn,REJECT
-DOMAIN-KEYWORD,-lq.amemv.com,Unlock
+# > Toutiao
+DOMAIN,ib.snssdk.com
 
-# Domain rules
-DOMAIN-SUFFIX,weibo.com,Unlock
-DOMAIN-SUFFIX,weibo.cn,Unlock
-DOMAIN-SUFFIX,weico.cc,Unlock
-# IP rules
-# weibo.com
-IP-CIDR,180.149.138.0/24,Unlock
-# weibo.cn, api.weibo.cn (The important one!)
-IP-CIDR,36.51.254.0/24,Unlock
-IP-CIDR,49.7.40.0/24,Unlock
-IP-CIDR,183.60.93.0/24,Unlock
-# dp.im.weibo.cn, *.biz.weibo.com
-IP-CIDR,49.7.36.0/24,Unlock
-# api.uve.weibo.com (Other *.uve.weibo.com are CNAME'd to here)
-IP-CIDR,180.149.138.39/32,Unlock
-# dns.weibo.com (uses AliDNS for Business service)
-IP-CIDR,39.97.130.0/24,Unlock
-IP-CIDR,39.97.128.0/24,Unlock
+# > Amemv
+# DOMAIN,dig.bdurl.net,REJECT
+# DOMAIN,dig.zjurl.cn,REJECT
+DOMAIN-KEYWORD,-normal-lq.amemv.com
+# DOMAIN-WILDCARD,api*-normal-c-lq.amemv.com
 
-# sinaimg.cn does not affect region display results, 
-# so no need to be paranoid (for now).
+# > Weibo
+DOMAIN,api.weibo.cn // 应用
+# 不用网页版以下可忽略
+DOMAIN,weibo.com // 网页版
+DOMAIN,m.weibo.cn // 移动网页版
+DOMAIN,s.weibo.com // 微博搜索及话题时发表微博
+DOMAIN,service.weibo.com // 网页版分享到微博
+
+# > Xiaohongshu
+DOMAIN,edith.xiaohongshu.com
+
+# > Zhihu
+DOMAIN,api.zhihu.com
+IP-CIDR,103.41.167.234/32,no-resolve
+IP-CIDR,103.41.167.235/32,no-resolve
+IP-CIDR,103.41.167.236/32,no-resolve
+DOMAIN,www.zhihu.com // 网页版
