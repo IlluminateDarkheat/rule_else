@@ -2,6 +2,10 @@ payload:
   # > Google
   - DOMAIN-KEYWORD,google
 
+  # > Google PaLM API
+  - DOMAIN,palm2openai.uua.app
+  - DOMAIN,palm2openai.jghg.eu.org
+
   # > Claude
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
