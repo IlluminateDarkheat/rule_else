@@ -6,6 +6,9 @@ payload:
   - DOMAIN,palm2openai.uua.app
   - DOMAIN,palm2openai.jghg.eu.org
 
+  # > JetBrains AI
+  - DOMAIN-SUFFIX,grazie.ai
+
   # > Claude
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
