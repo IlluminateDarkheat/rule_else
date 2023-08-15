@@ -3,6 +3,6 @@
 
 [General]
 
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local, *.crashlytics.com, *.cmpassport.com,  *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.bankcomm.com, *.getui.com, *.*.*.getui.com, , *.passenger.t3go.cn, yunbusiness.ccb.com, *.lan, *.msftconnecttest.com, *.msftncsi.com, *.pingan.com.cn, *.cmbchina.com, www.abchina.com.cn, %APPEND% www.baidu.com,wxh.wo.cn,gate.lagou.com,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local, *.crashlytics.com, *.cmpassport.com,  *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.passenger.t3go.cn, yunbusiness.ccb.com, *.lan, *.msftconnecttest.com, *.msftncsi.com, *.pingan.com.cn, *.cmbchina.com, www.abchina.com.cn, %APPEND% www.baidu.com, wxh.wo.cn, gate.lagou.com, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com
 
 ## Source: https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule
