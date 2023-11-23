@@ -66,4 +66,4 @@ AND,((USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*), (NOT,((DOMAIN-
 USER-AGENT,neteasemusic*
 
 // 建行生活弹窗广告
-URL-REGEX,^https:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A120$,REJECT // Added for: https://yunbusiness.ccb.com/clp_service/txCtrl?txcode=A3341A120
+URL-REGEX,^https:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A120$,REJECT
