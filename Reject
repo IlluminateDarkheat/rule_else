@@ -68,5 +68,5 @@ USER-AGENT,neteasemusic*
 // 建行生活弹窗广告
 URL-REGEX,^https:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A120$
 
-// Peacock 广告
+// Peacock 去广告
 DOMAIN,video-ads-module.ad-tech.nbcuni.com
