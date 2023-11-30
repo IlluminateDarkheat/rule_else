@@ -68,5 +68,8 @@ USER-AGENT,neteasemusic*
 // 建行生活弹窗广告
 URL-REGEX,^https:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A120$
 
+// 农业银行开屏广告
+URL-REGEX,^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(bdfb4|86fb9）
+
 // Peacock屏蔽广告
 DOMAIN,video-ads-module.ad-tech.nbcuni.com
