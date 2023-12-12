@@ -1,0 +1,19 @@
+#!name=Ad Reject
+#!desc=部分 URL-REGEX 规则
+
+[Rule]
+// 建行生活弹窗广告
+URL-REGEX,^https:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A120$
+
+// 农业银行开屏广告
+URL-REGEX,^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(bdfb4|86fb9|7aa68)
+
+// 微店
+URL-REGEX,^https:\/\/thor\.weidian\.com\/ares\/home\.splash
+
+// 什么值得买 主页面领红包广告 以及我的页面 服务卡片
+URL-REGEX,^https:\/\/app-api\.smzdm\.com\/util\/update
+URL-REGEX,^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\?basic_v=0&f=iphone&limit=20&page=1&sign=
+
+[MITM]
+hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com
