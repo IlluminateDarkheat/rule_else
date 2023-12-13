@@ -1,0 +1,8 @@
+#!name=NYMF
+#!desc=点击恢复内购解锁
+
+[Script]
+NYFM = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/NYFM.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
