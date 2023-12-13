@@ -1,0 +1,6 @@
+#!name=xhslive
+#!desc=xhslive无水印保存
+
+[Script]
+xiaohongshu = type=http-response, pattern=https://edith.xiaohongshu.com/api/sns/v2/note/feed, script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
+red_book_live_v2 = type=http-response, pattern=https://edith.xiaohongshu.com/api/sns/v1/note/live_photo/save, script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/red_book_live_v2.js, requires-body=true, max-size=-1, timeout=60
