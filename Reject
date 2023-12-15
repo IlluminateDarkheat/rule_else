@@ -67,3 +67,6 @@ USER-AGENT,neteasemusic*
 
 // Peacock屏蔽广告
 DOMAIN,video-ads-module.ad-tech.nbcuni.com
+
+// 滴滴出行App广告（配合模块）
+DOMAIN,gwp.xiaojukeji.com
