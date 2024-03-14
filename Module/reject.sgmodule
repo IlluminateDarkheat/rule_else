@@ -8,6 +8,9 @@ URL-REGEX,^https:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A12
 // 农业银行开屏广告
 URL-REGEX,^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(7c7d),REJECT,always-capture=ABC
 
+// 掌上生活开屏广告
+URL-REGEX,^https:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec,REJECT
+
 // 微店
 URL-REGEX,^https:\/\/thor\.weidian\.com\/ares\/home\.splash,REJECT
 
@@ -16,4 +19,4 @@ URL-REGEX,^https:\/\/app-api\.smzdm\.com\/util\/update,REJECT
 URL-REGEX,^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\?basic_v=0&f=iphone&limit=20&page=1&sign=,REJECT
 
 [MITM]
-hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com
+hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com
