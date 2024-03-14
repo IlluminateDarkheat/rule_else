@@ -6,7 +6,7 @@
 URL-REGEX,^https:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A120$,REJECT
 
 // 农业银行开屏广告
-URL-REGEX,^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(bdfb4|86fb9|7aa68),REJECT
+URL-REGEX,^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(7c7d),REJECT,always-capture=ABC
 
 // 微店
 URL-REGEX,^https:\/\/thor\.weidian\.com\/ares\/home\.splash,REJECT
