@@ -18,5 +18,8 @@ URL-REGEX,^https:\/\/thor\.weidian\.com\/ares\/home\.splash,REJECT
 URL-REGEX,^https:\/\/app-api\.smzdm\.com\/util\/update,REJECT
 URL-REGEX,^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\?basic_v=0&f=iphone&limit=20&page=1&sign=,REJECT
 
+// picooc 开屏 
+URL-REGEX,^https:\/\/sdk\.1rtb\.net\/sdk\/req_ad,REJECT
+
 [MITM]
-hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com
+hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com, sdk.1rtb.net
