@@ -21,5 +21,9 @@ URL-REGEX,^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\?basic_v=0&f=ip
 // picooc 开屏 
 URL-REGEX,^https:\/\/sdk\.1rtb\.net\/sdk\/req_ad,REJECT
 
+// 东方航空 - 开屏广告去除
+URL-REGEX,^https?:\/\/app\.ceair\.com\/customize\/security\/update,REJECT
+URL-REGEX,^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen,REJECT
+
 [MITM]
-hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com, sdk.1rtb.net
+hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com, sdk.1rtb.net, app.ceair.com
