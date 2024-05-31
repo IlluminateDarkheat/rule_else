@@ -25,5 +25,8 @@ URL-REGEX,^https:\/\/sdk\.1rtb\.net\/sdk\/req_ad,REJECT
 URL-REGEX,^https?:\/\/app\.ceair\.com\/customize\/security\/update,REJECT
 URL-REGEX,^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen,REJECT
 
+// 中信银行去广告 (终身躺平版)
+URL-REGEX,^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4},REJECT
+
 [MITM]
-hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com, sdk.1rtb.net, app.ceair.com
+hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com, sdk.1rtb.net, app.ceair.com, imcs.citicbank.com
