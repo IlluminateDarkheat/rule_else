@@ -28,5 +28,10 @@ URL-REGEX,^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen,REJECT
 // 中信银行去广告 (终身躺平版)
 URL-REGEX,^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4},REJECT
 
+// 麦当劳 开屏广告 首页弹窗
+
+URL-REGEX,https:\/\/api\.mcd\.cn\/bff\/portal\/(home\/splash|richpop),REJECT
+
+
 [MITM]
-hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com, sdk.1rtb.net, app.ceair.com, imcs.citicbank.com
+hostname = %APPEND% yunbusiness.ccb.com, midc.cdn-static.abchina.com.cn, mbasecc.bas.cmbchina.com, thor.weidian.com, app-api.smzdm.com, user-api.smzdm.com, sdk.1rtb.net, app.ceair.com, imcs.citicbank.com, api.mcd.cn
