@@ -1,0 +1,14 @@
+#!name=VoWiFi Proxy
+#!desc=Proxy rules for Wi-Fi Calling / VoWiFi with remote DNS
+#!category=HotKids
+#!system=ios
+
+[Rule]
+# HK
+RULE-SET,https://raw.githubusercontent.com/iniwex5/tools/main/rules/HK-wifi-call.list,🇭🇰,extended-matching
+# US
+RULE-SET,https://raw.githubusercontent.com/iniwex5/tools/main/rules/US-wifi-call.list,🇺🇸,extended-matching
+# UK
+RULE-SET,https://raw.githubusercontent.com/iniwex5/tools/main/rules/UK-wifi-call.list,🇬🇧,extended-matching
+# DE
+RULE-SET,https://raw.githubusercontent.com/iniwex5/tools/main/rules/DE-wifi-call.list,🇩🇪,extended-matching
